@@ -1,0 +1,1 @@
+import{n as e}from"../../normalize-component-1efcb3aa.js";const n={};var t=function(){var e=this,n=e.$createElement;return(e._self._c||n)("div",[e._v("My Custom Layout")])};t._withStripped=!0;var o={id:"custom",name:"Custom",component:e({render:t,staticRenderFns:[]},undefined,n,undefined,false,undefined,!1,void 0,void 0,void 0)};export default o;

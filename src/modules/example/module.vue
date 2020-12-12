@@ -1,5 +1,8 @@
 <template>
-  <div>My Custom Module</div>
+  <div>
+    My Custom Module
+    <v-avatar>RVZ</v-avatar>
+  </div>
 </template>
 
 <script>
