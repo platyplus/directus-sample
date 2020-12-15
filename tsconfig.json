@@ -6,23 +6,23 @@
     "strict": true,
     // if using webpack 2+ or rollup, to leverage tree shaking:
     "module": "es2015",
-    "moduleResolution": "node",
-    "baseUrl": ".",
-    "paths": {
-      "@directus/*": [".directus/app/src/*"],
-      "@composables/*": [".directus/app/src/composables/*"],
-      "@components/*": [".directus/app/src/components/*"],
-      "@displays/*": [".directus/app/src/displays/*"],
-      "@interfaces/*": [".directus/app/src/interfaces/*"],
-      "@layouts/*": [".directus/app/src/layouts/*"],
-      "@modules/*": [".directus/app/src/modules/*"],
-      "@routes/*": [".directus/app/src/routes/*"],
-      "@stores": [".directus/app/src/stores"],
-      "@utils/*": [".directus/app/src/utils/*"],
-      "@views/*": [".directus/app/src/views/*"]
-    }
+    "moduleResolution": "node"
+    // "baseUrl": ".",
+    // "paths": {
+    //   "@directus/*": [".directus/app/src/*"],
+    //   "@composables/*": [".directus/app/src/composables/*"],
+    //   "@components/*": [".directus/app/src/components/*"],
+    //   "@displays/*": [".directus/app/src/displays/*"],
+    //   "@interfaces/*": [".directus/app/src/interfaces/*"],
+    //   "@layouts/*": [".directus/app/src/layouts/*"],
+    //   "@modules/*": [".directus/app/src/modules/*"],
+    //   "@routes/*": [".directus/app/src/routes/*"],
+    //   "@stores": [".directus/app/src/stores"],
+    //   "@utils/*": [".directus/app/src/utils/*"],
+    //   "@views/*": [".directus/app/src/views/*"]
+    // }
   },
-  "rootDir": "src",
+  // "rootDir": "src",
   "include": ["src/**/*.ts", "src/**/*.vue"],
   "exclude": ["node_modules"]
 }

@@ -21,7 +21,7 @@ services:
   #     - 6379:6379
 
   directus:
-    image: directus/directus:v9.0.0-rc.22
+    image: directus/directus:v9.0.0-rc.23
     volumes:
       - ./extensions:/directus/extensions
     ports:
