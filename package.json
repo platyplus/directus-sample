@@ -5,6 +5,7 @@
   "scripts": {
     "prebuild": "yarn clean",
     "build": "rollup -c",
+    "prewatch": "yarn clean",
     "watch": "rollup -c -w",
     "clean": "rimraf extensions/*/* && rimraf extensions/*.js"
   },

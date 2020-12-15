@@ -6,7 +6,6 @@
 
 <script lang="ts">
 import { defineComponent, inject, computed } from '@vue/composition-api'
-import Vue from 'vue'
 export default defineComponent({
   inject: ['system'],
   mounted() {
