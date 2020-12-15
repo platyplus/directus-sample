@@ -4,7 +4,6 @@ Exploring how Directus extensions work.
 
 ```sh
 # After cloning this repo
-git clone https://github.com/directus/directus.git .directus
 yarn
 yarn build
 docker-compose up
